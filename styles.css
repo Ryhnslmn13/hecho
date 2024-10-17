@@ -1,0 +1,163 @@
+/* General Styling */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #014250;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #85b8d4 !important;
+}
+
+body {
+    padding-top: 70px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #014250;
+    color: #fff;
+    padding: 275px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #f7c44b;
+    color: #014250;
+    border-radius: 25px;
+}
+
+.hero .btn:hover {
+    background-color: #85b8d4;
+    color: #fff;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #fff;
+    color: #333;
+}
+
+.about-us h2 {
+    color: #014250;
+    font-weight: bold;
+}
+
+.about-us h3 {
+    color: #014250;
+    margin-top: 20px;
+}
+
+.about-us p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-us img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.about-us ul li strong {
+    color: #014250;
+}
+
+.about-us .text-primary {
+    color: #f7c44b !important;
+}
+
+/* Services Section */
+.services {
+    background-color: #014250;
+}
+
+#services h2 {
+    color: #014250;
+}
+
+#services i {
+    color: #f7c44b;
+}
+
+#services h4 {
+    color: #014250;
+    margin-top: 20px;
+}
+
+#services p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Contact Form */
+form .form-label {
+    color: #014250;
+}
+
+form .form-control {
+    border-radius: 10px;
+    border: 2px solid #014250;
+}
+
+form .btn {
+    background-color: #f7c44b;
+    color: #014250;
+    border-radius: 25px;
+}
+
+form .btn:hover {
+    background-color: #85b8d4;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #014250;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #85b8d4;
+}
+
+.footer i {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.footer p.mt-3 {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #85b8d4;
+}
